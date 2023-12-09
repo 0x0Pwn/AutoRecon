@@ -40,26 +40,26 @@ bash install.sh
 git clone https://github.com/0x0Pwn/AutoRecon.git
 ```
 
-1. Navigate to the script directory:
+2. Navigate to the script directory:
 
 ```
 cd AutoRecon
 ```
 
-1. Set up a virtual environment (optional but recommended):
+3. Set up a virtual environment (optional but recommended):
 
 ```
 python -m venv venv
 source venv/bin/activate  # On Windows, use 'venv\Scripts\activate'
 ```
 
-1. Install the required prerequisites:
+4. Install the required prerequisites:
 
 ```
 bash install.sh
 ```
 
-1. Configure Discord Webhook URL in the Notify tool configuration file:
+5. Configure Discord Webhook URL in the Notify tool configuration file:
 
 ```
 nvim $HOME/.config/notify/provider-config.yaml #or nano ...
